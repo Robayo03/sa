@@ -1,0 +1,57 @@
+body {
+    background-image: url(../../imagenes/Fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+div .col-5 {
+    margin: 5px 5px;
+}
+/*---------------------Foto--------------------------------------------------------------------------------- */
+.foto_Perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra horizontalmente */
+    justify-content: center; /* Centra verticalmente */
+    text-align: center; /* Alinea el texto al centro */
+    height: 100%; /* Ocupa toda la altura disponible */
+}
+#foto_perfil {
+    display: block;
+    margin: 10px 40%;
+    border-radius: 50%;
+    width: 15rem;
+}
+/*-----------------------------------------------------------------------------------------------------------*/
+#perfil{
+    padding: 10px 15px;
+    margin-top: 5px;    
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra horizontalmente */
+    justify-content: center; /* Centra verticalmente */
+    text-align: center; /* Alinea el texto al centro */
+    height: 100%; /* Ocupa toda la altura disponible */
+}
+
+
+h1 a{
+    color: black;
+}
+h1 a:hover{
+    color: blue;
+}
+#calendario {
+    background-color: rgb(0, 89, 255);
+    border: solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+#dia {
+    margin-top: 2em;
+    text-align: center;
+    height: 100px;
+}

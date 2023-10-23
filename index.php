@@ -1,6 +1,4 @@
 <?php
-include "control/plantillaControl.php";
+include "control/controlPlantilla.php";
 
 
-$objPlantilla = new controladorPlantilla();
-$objPlantilla->ctrPlantilla();
